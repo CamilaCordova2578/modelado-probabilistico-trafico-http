@@ -1,0 +1,10 @@
+﻿carga,respuesta_404,404_simuladas_media_72h,replicas,datos_reales
+x1,Bajo,109.998,1000,NO; escenario hipotetico
+x1,Base,137.4239,10000,NO; escenario hipotetico
+x1,Alto,158.29,1000,NO; escenario hipotetico
+x5,Bajo,549.982,1000,NO; escenario hipotetico
+x5,Base,688.424,1000,NO; escenario hipotetico
+x5,Alto,793.875,1000,NO; escenario hipotetico
+x10,Bajo,1100.529,1000,NO; escenario hipotetico
+x10,Base,1376.806,1000,NO; escenario hipotetico
+x10,Alto,1588.027,1000,NO; escenario hipotetico

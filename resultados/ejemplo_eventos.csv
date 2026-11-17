@@ -1,0 +1,7 @@
+﻿hora_indice,minuto_en_hora,X2_categoria,X3_metodo,X4_es_404
+240,31.1756,inyeccion_sql,GET,1
+241,45.9034,archivo_sensible,GET,1
+242,17.2199,ejecucion_comandos,GET,1
+242,23.7104,inyeccion_sql,GET,1
+247,14.0948,archivo_sensible,GET,1
+247,27.4152,inyeccion_sql,GET,1

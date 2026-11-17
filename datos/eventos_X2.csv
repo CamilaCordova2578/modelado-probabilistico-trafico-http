@@ -1,0 +1,411 @@
+﻿timestamp,fecha_local,archivo,linea,metodo,estado_http,categoria_principal,categorias_fuertes,indicios_fuertes,razon_final,nivel
+2025-09-24 16:45:35+07:00,2025-09-24,web-access.log.13.gz,10173,GET,404,ejecucion_comandos,archivo_sensible;ejecucion_comandos,comando_sistema_en_parametro_cmd;java_runtime_en_url;referencia_a_etc_passwd,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-24 18:49:07+07:00,2025-09-24,web-access.log.13.gz,11658,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-24 18:49:17+07:00,2025-09-24,web-access.log.13.gz,11671,GET,404,ejecucion_comandos,ejecucion_comandos,llamada_a_ipconfig,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-24 18:49:18+07:00,2025-09-24,web-access.log.13.gz,11673,GET,404,ejecucion_comandos,archivo_sensible;ejecucion_comandos,comando_sistema_en_parametro_cmd;referencia_a_etc_passwd,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-24 22:15:27+07:00,2025-09-24,web-access.log.13.gz,14844,GET,404,ejecucion_comandos,ejecucion_comandos,tuberia_base64_a_shell,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-24 23:41:22+07:00,2025-09-24,web-access.log.13.gz,15357,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-24 23:46:06+07:00,2025-09-24,web-access.log.13.gz,15377,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-25 00:10:29+07:00,2025-09-25,web-access.log.13.gz,15525,GET,404,ejecucion_comandos,,,Evaluacion de codigo en expresion template,revision_contextual
+2025-09-25 01:18:51+07:00,2025-09-25,web-access.log.13.gz,15843,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-25 06:10:10+07:00,2025-09-25,web-access.log.13.gz,17913,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-25 09:24:09+07:00,2025-09-25,web-access.log.12.gz,2943,GET,404,ejecucion_comandos,,,Payload shell codificado en parametro base64Url,revision_contextual
+2025-09-25 09:24:09+07:00,2025-09-25,web-access.log.12.gz,2944,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-25 09:24:09+07:00,2025-09-25,web-access.log.12.gz,2945,GET,404,ejecucion_comandos,,,Payload shell codificado en parametro base64Url,revision_contextual
+2025-09-25 09:25:11+07:00,2025-09-25,web-access.log.12.gz,2953,GET,404,ejecucion_comandos,,,Payload shell codificado en parametro base64Url,revision_contextual
+2025-09-25 09:25:14+07:00,2025-09-25,web-access.log.12.gz,2955,GET,404,ejecucion_comandos,,,Payload shell codificado en parametro base64Url,revision_contextual
+2025-09-25 09:25:17+07:00,2025-09-25,web-access.log.12.gz,2956,GET,404,ejecucion_comandos,,,Payload shell codificado en parametro base64Url,revision_contextual
+2025-09-25 11:09:22+07:00,2025-09-25,web-access.log.12.gz,5678,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-25 12:35:48+07:00,2025-09-25,web-access.log.12.gz,8170,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-25 13:57:27+07:00,2025-09-25,web-access.log.12.gz,11085,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-25 13:57:28+07:00,2025-09-25,web-access.log.12.gz,11089,POST,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-25 13:58:56+07:00,2025-09-25,web-access.log.12.gz,11129,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-25 16:19:47+07:00,2025-09-25,web-access.log.12.gz,14706,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-25 16:19:56+07:00,2025-09-25,web-access.log.12.gz,14716,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-25 17:56:54+07:00,2025-09-25,web-access.log.12.gz,16551,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-25 17:57:13+07:00,2025-09-25,web-access.log.12.gz,16560,GET,404,ejecucion_comandos,archivo_sensible;ejecucion_comandos,comando_sistema_en_parametro_cmd;referencia_a_etc_passwd,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-25 20:09:48+07:00,2025-09-25,web-access.log.12.gz,18016,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-25 20:42:52+07:00,2025-09-25,web-access.log.12.gz,18444,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-26 03:24:15+07:00,2025-09-26,web-access.log.12.gz,21113,GET,404,ejecucion_comandos,ejecucion_comandos,codigo_php_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-26 07:17:17+07:00,2025-09-26,web-access.log.12.gz,23178,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-26 07:23:11+07:00,2025-09-26,web-access.log.12.gz,23198,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-26 08:12:08+07:00,2025-09-26,web-access.log.11.gz,462,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-26 08:46:13+07:00,2025-09-26,web-access.log.11.gz,1017,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-26 08:46:13+07:00,2025-09-26,web-access.log.11.gz,1020,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-26 09:54:01+07:00,2025-09-26,web-access.log.11.gz,3072,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-26 14:22:49+07:00,2025-09-26,web-access.log.11.gz,8840,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-26 14:22:54+07:00,2025-09-26,web-access.log.11.gz,8847,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-26 15:50:25+07:00,2025-09-26,web-access.log.11.gz,11318,POST,302,archivo_sensible,,,Lectura relativa a win.ini mediante traversal,revision_contextual
+2025-09-26 19:14:12+07:00,2025-09-26,web-access.log.11.gz,14011,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-26 22:33:51+07:00,2025-09-26,web-access.log.11.gz,15545,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-27 00:23:39+07:00,2025-09-27,web-access.log.11.gz,16237,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 00:23:39+07:00,2025-09-27,web-access.log.11.gz,16238,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 00:24:33+07:00,2025-09-27,web-access.log.11.gz,16248,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 01:56:52+07:00,2025-09-27,web-access.log.11.gz,16647,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 03:13:32+07:00,2025-09-27,web-access.log.11.gz,17053,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 03:47:33+07:00,2025-09-27,web-access.log.11.gz,17186,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 05:00:16+07:00,2025-09-27,web-access.log.11.gz,17457,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 05:00:58+07:00,2025-09-27,web-access.log.11.gz,17468,POST,404,ejecucion_comandos,ejecucion_comandos,endpoint_util_bash,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-27 06:28:02+07:00,2025-09-27,web-access.log.11.gz,17818,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 10:43:48+07:00,2025-09-27,web-access.log.10.gz,1243,GET,404,ejecucion_comandos,ejecucion_comandos,java_runtime_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-27 12:24:02+07:00,2025-09-27,web-access.log.10.gz,1948,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 12:24:02+07:00,2025-09-27,web-access.log.10.gz,1949,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 12:24:02+07:00,2025-09-27,web-access.log.10.gz,1952,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-27 15:15:44+07:00,2025-09-27,web-access.log.10.gz,3479,GET,404,ejecucion_comandos,inyeccion_sql,indicador_SQL_en_solicitud,Comando shell sleep incrustado; no SQLi,indicador_explicito
+2025-09-27 15:29:08+07:00,2025-09-27,web-access.log.10.gz,3561,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 16:51:19+07:00,2025-09-27,web-access.log.10.gz,4116,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 16:51:20+07:00,2025-09-27,web-access.log.10.gz,4117,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 16:51:20+07:00,2025-09-27,web-access.log.10.gz,4118,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 17:07:59+07:00,2025-09-27,web-access.log.10.gz,4184,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 18:31:16+07:00,2025-09-27,web-access.log.10.gz,4646,GET,404,ejecucion_comandos,archivo_sensible;ejecucion_comandos,comando_sistema_en_parametro_cmd;referencia_a_etc_passwd,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-27 18:31:16+07:00,2025-09-27,web-access.log.10.gz,4647,GET,404,archivo_sensible,,,Comando de lectura de archivo sensible win.ini,revision_contextual
+2025-09-27 20:26:35+07:00,2025-09-27,web-access.log.10.gz,5715,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-27 23:51:53+07:00,2025-09-27,web-access.log.10.gz,6999,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-27 23:51:53+07:00,2025-09-27,web-access.log.10.gz,7003,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-28 05:47:01+07:00,2025-09-28,web-access.log.10.gz,8452,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-28 08:50:36+07:00,2025-09-28,web-access.log.9.gz,430,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-28 12:30:02+07:00,2025-09-28,web-access.log.9.gz,1805,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-28 15:02:05+07:00,2025-09-28,web-access.log.9.gz,2954,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-28 18:28:19+07:00,2025-09-28,web-access.log.9.gz,4174,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-28 18:28:21+07:00,2025-09-28,web-access.log.9.gz,4188,GET,404,ejecucion_comandos,ejecucion_comandos,java_runtime_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-28 18:28:21+07:00,2025-09-28,web-access.log.9.gz,4195,GET,404,ejecucion_comandos,ejecucion_comandos,java_runtime_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-28 18:28:21+07:00,2025-09-28,web-access.log.9.gz,4197,GET,404,ejecucion_comandos,ejecucion_comandos,java_runtime_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-28 20:29:46+07:00,2025-09-28,web-access.log.9.gz,5446,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-28 21:19:02+07:00,2025-09-28,web-access.log.9.gz,5852,GET,404,ejecucion_comandos,archivo_sensible;ejecucion_comandos,comando_sistema_en_parametro_cmd;java_runtime_en_url;referencia_a_etc_passwd,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-28 23:12:51+07:00,2025-09-28,web-access.log.9.gz,6666,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-28 23:12:59+07:00,2025-09-28,web-access.log.9.gz,6682,GET,404,ejecucion_comandos,archivo_sensible;ejecucion_comandos,comando_sistema_en_parametro_cmd;referencia_a_etc_passwd,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-28 23:12:59+07:00,2025-09-28,web-access.log.9.gz,6683,GET,404,ejecucion_comandos,ejecucion_comandos,llamada_a_ipconfig,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-28 23:51:46+07:00,2025-09-28,web-access.log.9.gz,6924,POST,404,ejecucion_comandos,ejecucion_comandos,endpoint_util_bash,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-28 23:51:55+07:00,2025-09-28,web-access.log.9.gz,6927,POST,404,ejecucion_comandos,ejecucion_comandos,endpoint_util_bash,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-29 01:14:47+07:00,2025-09-29,web-access.log.9.gz,7395,GET,404,ejecucion_comandos,ejecucion_comandos,llamada_a_ipconfig,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-29 01:14:48+07:00,2025-09-29,web-access.log.9.gz,7396,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-29 01:15:20+07:00,2025-09-29,web-access.log.9.gz,7402,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-29 01:16:23+07:00,2025-09-29,web-access.log.9.gz,7407,POST,404,archivo_sensible,,,Ruta con traversal hacia tomcat/webapps,revision_contextual
+2025-09-29 02:42:05+07:00,2025-09-29,web-access.log.9.gz,7870,GET,404,ejecucion_comandos,ejecucion_comandos,tuberia_base64_a_shell,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-29 02:59:01+07:00,2025-09-29,web-access.log.9.gz,7959,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-29 02:59:50+07:00,2025-09-29,web-access.log.9.gz,7968,GET,404,xss,,,HTML/script codificado dentro de data URL,revision_contextual
+2025-09-29 04:08:49+07:00,2025-09-29,web-access.log.9.gz,8198,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 04:08:49+07:00,2025-09-29,web-access.log.9.gz,8199,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-29 04:17:52+07:00,2025-09-29,web-access.log.9.gz,8244,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 04:45:04+07:00,2025-09-29,web-access.log.9.gz,8327,GET,404,ejecucion_comandos,,,Evaluacion de codigo en expresion template,revision_contextual
+2025-09-29 05:07:40+07:00,2025-09-29,web-access.log.9.gz,8409,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-29 05:46:45+07:00,2025-09-29,web-access.log.9.gz,8663,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 05:49:28+07:00,2025-09-29,web-access.log.9.gz,8678,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 06:28:58+07:00,2025-09-29,web-access.log.9.gz,8896,DELETE,405,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 06:29:08+07:00,2025-09-29,web-access.log.9.gz,8901,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 08:07:38+07:00,2025-09-29,web-access.log.8.gz,511,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-29 09:35:28+07:00,2025-09-29,web-access.log.8.gz,2261,GET,404,ejecucion_comandos,ejecucion_comandos,inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-29 09:35:28+07:00,2025-09-29,web-access.log.8.gz,2262,GET,404,ejecucion_comandos,ejecucion_comandos,inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-29 09:35:28+07:00,2025-09-29,web-access.log.8.gz,2263,GET,404,ejecucion_comandos,ejecucion_comandos,inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-29 09:35:28+07:00,2025-09-29,web-access.log.8.gz,2264,GET,404,ejecucion_comandos,ejecucion_comandos,inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-29 10:56:01+07:00,2025-09-29,web-access.log.8.gz,4180,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 11:24:46+07:00,2025-09-29,web-access.log.8.gz,4770,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-29 11:24:50+07:00,2025-09-29,web-access.log.8.gz,4775,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 14:05:45+07:00,2025-09-29,web-access.log.8.gz,7736,GET,404,ejecucion_comandos,,,Payload shell codificado en parametro base64Url,revision_contextual
+2025-09-29 14:05:45+07:00,2025-09-29,web-access.log.8.gz,7738,GET,404,ejecucion_comandos,,,Payload shell codificado en parametro base64Url,revision_contextual
+2025-09-29 14:07:40+07:00,2025-09-29,web-access.log.8.gz,7760,GET,404,ejecucion_comandos,,,Payload shell codificado en parametro base64Url,revision_contextual
+2025-09-29 14:07:44+07:00,2025-09-29,web-access.log.8.gz,7761,GET,404,ejecucion_comandos,,,Payload shell codificado en parametro base64Url,revision_contextual
+2025-09-29 14:07:48+07:00,2025-09-29,web-access.log.8.gz,7762,GET,404,ejecucion_comandos,,,Payload shell codificado en parametro base64Url,revision_contextual
+2025-09-29 14:43:29+07:00,2025-09-29,web-access.log.8.gz,8427,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-29 15:15:45+07:00,2025-09-29,web-access.log.8.gz,9018,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 15:55:28+07:00,2025-09-29,web-access.log.8.gz,9750,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-29 16:07:38+07:00,2025-09-29,web-access.log.8.gz,9980,GET,404,ejecucion_comandos,ejecucion_comandos,java_runtime_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-29 17:07:12+07:00,2025-09-29,web-access.log.8.gz,10989,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-29 17:23:53+07:00,2025-09-29,web-access.log.8.gz,11312,GET,404,ejecucion_comandos,,,Ejecucion declarada en parametro cmd,revision_contextual
+2025-09-29 18:35:01+07:00,2025-09-29,web-access.log.8.gz,11994,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 18:35:01+07:00,2025-09-29,web-access.log.8.gz,11996,POST,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 19:14:44+07:00,2025-09-29,web-access.log.8.gz,12263,GET,404,ejecucion_comandos,,,Parametro system codifica id (base64),revision_contextual
+2025-09-29 19:14:45+07:00,2025-09-29,web-access.log.8.gz,12266,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-29 20:07:49+07:00,2025-09-29,web-access.log.8.gz,12756,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 20:27:01+07:00,2025-09-29,web-access.log.8.gz,13035,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-29 20:27:16+07:00,2025-09-29,web-access.log.8.gz,13038,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-29 21:07:59+07:00,2025-09-29,web-access.log.8.gz,13408,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-29 22:20:17+07:00,2025-09-29,web-access.log.8.gz,14008,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 22:20:34+07:00,2025-09-29,web-access.log.8.gz,14017,GET,404,ejecucion_comandos,archivo_sensible;ejecucion_comandos,comando_sistema_en_parametro_cmd;referencia_a_etc_passwd,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-29 23:02:53+07:00,2025-09-29,web-access.log.8.gz,14284,GET,400,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-29 23:04:14+07:00,2025-09-29,web-access.log.8.gz,14296,POST,404,ejecucion_comandos,ejecucion_comandos,codigo_php_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-30 00:35:48+07:00,2025-09-30,web-access.log.8.gz,14845,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 01:11:59+07:00,2025-09-30,web-access.log.8.gz,15009,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 02:57:55+07:00,2025-09-30,web-access.log.8.gz,15450,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-30 03:08:07+07:00,2025-09-30,web-access.log.8.gz,15504,POST,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 07:45:02+07:00,2025-09-30,web-access.log.7.gz,69,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 07:45:02+07:00,2025-09-30,web-access.log.7.gz,70,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-30 07:45:07+07:00,2025-09-30,web-access.log.7.gz,74,GET,404,ejecucion_comandos,inyeccion_sql,indicador_SQL_en_solicitud,"Payload de evaluacion Java/Groovy, no SQLi",indicador_explicito
+2025-09-30 08:38:38+07:00,2025-09-30,web-access.log.7.gz,973,GET,404,ejecucion_comandos,ejecucion_comandos,codigo_php_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-30 12:02:08+07:00,2025-09-30,web-access.log.7.gz,5880,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 12:21:00+07:00,2025-09-30,web-access.log.7.gz,6244,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 13:10:31+07:00,2025-09-30,web-access.log.7.gz,7296,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-30 13:10:31+07:00,2025-09-30,web-access.log.7.gz,7299,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 14:12:20+07:00,2025-09-30,web-access.log.7.gz,8874,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 14:12:20+07:00,2025-09-30,web-access.log.7.gz,8876,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 14:12:21+07:00,2025-09-30,web-access.log.7.gz,8878,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 15:39:39+07:00,2025-09-30,web-access.log.7.gz,10026,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 15:39:39+07:00,2025-09-30,web-access.log.7.gz,10028,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 15:39:41+07:00,2025-09-30,web-access.log.7.gz,10030,POST,404,ejecucion_comandos,ejecucion_comandos,codigo_php_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-09-30 15:43:07+07:00,2025-09-30,web-access.log.7.gz,10057,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 15:47:40+07:00,2025-09-30,web-access.log.7.gz,10240,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 18:42:48+07:00,2025-09-30,web-access.log.7.gz,11998,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 18:42:59+07:00,2025-09-30,web-access.log.7.gz,12001,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-30 20:43:52+07:00,2025-09-30,web-access.log.7.gz,13178,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 20:43:58+07:00,2025-09-30,web-access.log.7.gz,13180,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 21:47:46+07:00,2025-09-30,web-access.log.7.gz,13608,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 21:47:46+07:00,2025-09-30,web-access.log.7.gz,13609,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-30 22:56:34+07:00,2025-09-30,web-access.log.7.gz,14172,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-09-30 22:58:29+07:00,2025-09-30,web-access.log.7.gz,14183,POST,302,archivo_sensible,,,Lectura relativa a win.ini mediante traversal,revision_contextual
+2025-09-30 23:33:22+07:00,2025-09-30,web-access.log.7.gz,14426,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 23:33:22+07:00,2025-09-30,web-access.log.7.gz,14428,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-09-30 23:33:23+07:00,2025-09-30,web-access.log.7.gz,14431,GET,404,ejecucion_comandos,,,Inyeccion de comando $() en parametro,revision_contextual
+2025-10-01 02:14:19+07:00,2025-10-01,web-access.log.7.gz,15195,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-01 02:32:03+07:00,2025-10-01,web-access.log.7.gz,15261,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-01 06:09:54+07:00,2025-10-01,web-access.log.7.gz,16157,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-01 07:11:53+07:00,2025-10-01,web-access.log.7.gz,16552,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-01 07:57:44+07:00,2025-10-01,web-access.log.6.gz,294,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-01 08:03:52+07:00,2025-10-01,web-access.log.6.gz,336,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-01 08:03:54+07:00,2025-10-01,web-access.log.6.gz,337,GET,404,inyeccion_sql,,,Inyeccion SQL INSERT INTO cron_jobs,revision_contextual
+2025-10-01 08:06:19+07:00,2025-10-01,web-access.log.6.gz,372,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-01 08:55:03+07:00,2025-10-01,web-access.log.6.gz,1272,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-01 10:37:20+07:00,2025-10-01,web-access.log.6.gz,3678,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-01 10:37:20+07:00,2025-10-01,web-access.log.6.gz,3679,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-01 11:49:30+07:00,2025-10-01,web-access.log.6.gz,5534,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-01 12:30:09+07:00,2025-10-01,web-access.log.6.gz,6047,POST,404,ejecucion_comandos,ejecucion_comandos,endpoint_util_bash,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-01 13:49:59+07:00,2025-10-01,web-access.log.6.gz,7430,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-01 19:21:09+07:00,2025-10-01,web-access.log.6.gz,12139,GET,404,ejecucion_comandos,ejecucion_comandos,java_runtime_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-01 19:31:57+07:00,2025-10-01,web-access.log.6.gz,12326,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-01 19:31:57+07:00,2025-10-01,web-access.log.6.gz,12327,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-01 20:36:27+07:00,2025-10-01,web-access.log.6.gz,12698,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-01 22:38:21+07:00,2025-10-01,web-access.log.6.gz,13981,GET,404,ejecucion_comandos,inyeccion_sql,indicador_SQL_en_solicitud,Comando shell sleep incrustado; no SQLi,indicador_explicito
+2025-10-02 00:10:44+07:00,2025-10-02,web-access.log.6.gz,14586,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-02 00:10:44+07:00,2025-10-02,web-access.log.6.gz,14587,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-02 00:11:46+07:00,2025-10-02,web-access.log.6.gz,14601,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-02 00:11:46+07:00,2025-10-02,web-access.log.6.gz,14602,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-02 01:06:38+07:00,2025-10-02,web-access.log.6.gz,14821,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-02 02:15:36+07:00,2025-10-02,web-access.log.6.gz,15161,GET,404,archivo_sensible,,,Comando de lectura de archivo sensible win.ini,revision_contextual
+2025-10-02 02:15:36+07:00,2025-10-02,web-access.log.6.gz,15162,GET,404,ejecucion_comandos,archivo_sensible;ejecucion_comandos,comando_sistema_en_parametro_cmd;referencia_a_etc_passwd,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-02 04:58:45+07:00,2025-10-02,web-access.log.6.gz,15870,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-02 08:08:03+07:00,2025-10-02,web-access.log.5.gz,584,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 08:08:04+07:00,2025-10-02,web-access.log.5.gz,586,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 12:45:25+07:00,2025-10-02,web-access.log.5.gz,4404,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-02 13:05:00+07:00,2025-10-02,web-access.log.5.gz,4893,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 13:05:00+07:00,2025-10-02,web-access.log.5.gz,4894,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 13:05:00+07:00,2025-10-02,web-access.log.5.gz,4897,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 13:05:00+07:00,2025-10-02,web-access.log.5.gz,4900,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 13:05:23+07:00,2025-10-02,web-access.log.5.gz,4913,POST,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 15:32:00+07:00,2025-10-02,web-access.log.5.gz,7422,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 15:56:03+07:00,2025-10-02,web-access.log.5.gz,7846,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-02 17:18:20+07:00,2025-10-02,web-access.log.5.gz,9044,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 17:18:20+07:00,2025-10-02,web-access.log.5.gz,9045,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 17:18:20+07:00,2025-10-02,web-access.log.5.gz,9046,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 17:18:32+07:00,2025-10-02,web-access.log.5.gz,9070,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 17:18:32+07:00,2025-10-02,web-access.log.5.gz,9071,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 17:18:32+07:00,2025-10-02,web-access.log.5.gz,9072,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 17:18:32+07:00,2025-10-02,web-access.log.5.gz,9073,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 17:18:32+07:00,2025-10-02,web-access.log.5.gz,9074,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 20:09:31+07:00,2025-10-02,web-access.log.5.gz,10801,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-02 20:27:13+07:00,2025-10-02,web-access.log.5.gz,11033,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-02 23:29:03+07:00,2025-10-02,web-access.log.5.gz,12392,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-03 02:05:13+07:00,2025-10-03,web-access.log.5.gz,13071,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 02:05:15+07:00,2025-10-03,web-access.log.5.gz,13074,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 02:05:16+07:00,2025-10-03,web-access.log.5.gz,13075,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 03:12:16+07:00,2025-10-03,web-access.log.5.gz,13350,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-03 04:49:02+07:00,2025-10-03,web-access.log.5.gz,13694,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-03 09:25:10+07:00,2025-10-03,web-access.log.4.gz,1322,POST,404,ejecucion_comandos,ejecucion_comandos,endpoint_util_bash,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 09:25:16+07:00,2025-10-03,web-access.log.4.gz,1325,POST,404,ejecucion_comandos,ejecucion_comandos,endpoint_util_bash,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 10:49:28+07:00,2025-10-03,web-access.log.4.gz,2715,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 11:01:07+07:00,2025-10-03,web-access.log.4.gz,2859,GET,404,ejecucion_comandos,ejecucion_comandos,llamada_a_ipconfig,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 11:02:55+07:00,2025-10-03,web-access.log.4.gz,2924,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-03 11:04:18+07:00,2025-10-03,web-access.log.4.gz,2931,POST,404,archivo_sensible,,,Ruta con traversal hacia tomcat/webapps,revision_contextual
+2025-10-03 11:43:15+07:00,2025-10-03,web-access.log.4.gz,3200,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-03 12:23:46+07:00,2025-10-03,web-access.log.4.gz,3567,GET,404,xss,,,HTML/script codificado dentro de data URL,revision_contextual
+2025-10-03 13:21:06+07:00,2025-10-03,web-access.log.4.gz,4132,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-03 14:23:15+07:00,2025-10-03,web-access.log.4.gz,5031,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-03 14:32:25+07:00,2025-10-03,web-access.log.4.gz,5219,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-03 14:32:33+07:00,2025-10-03,web-access.log.4.gz,5224,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-03 15:17:02+07:00,2025-10-03,web-access.log.4.gz,5829,DELETE,405,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-03 15:26:45+07:00,2025-10-03,web-access.log.4.gz,5932,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 15:26:46+07:00,2025-10-03,web-access.log.4.gz,5935,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 15:26:47+07:00,2025-10-03,web-access.log.4.gz,5936,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 15:56:29+07:00,2025-10-03,web-access.log.4.gz,6151,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-03 17:32:20+07:00,2025-10-03,web-access.log.4.gz,6929,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-03 19:00:02+07:00,2025-10-03,web-access.log.4.gz,7622,GET,404,ejecucion_comandos,ejecucion_comandos,inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 19:00:02+07:00,2025-10-03,web-access.log.4.gz,7623,GET,404,ejecucion_comandos,ejecucion_comandos,inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 19:00:02+07:00,2025-10-03,web-access.log.4.gz,7624,GET,404,ejecucion_comandos,ejecucion_comandos,inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 19:00:02+07:00,2025-10-03,web-access.log.4.gz,7625,GET,404,ejecucion_comandos,ejecucion_comandos,inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-03 19:33:34+07:00,2025-10-03,web-access.log.4.gz,7783,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-03 20:41:51+07:00,2025-10-03,web-access.log.4.gz,8415,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-03 20:42:26+07:00,2025-10-03,web-access.log.4.gz,8425,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-03 21:36:38+07:00,2025-10-03,web-access.log.4.gz,8782,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-03 22:37:09+07:00,2025-10-03,web-access.log.4.gz,9137,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-03 22:37:10+07:00,2025-10-03,web-access.log.4.gz,9141,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-03 23:45:06+07:00,2025-10-03,web-access.log.4.gz,9537,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-04 00:01:03+07:00,2025-10-04,web-access.log.4.gz,9645,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-04 01:16:16+07:00,2025-10-04,web-access.log.4.gz,10038,GET,404,ejecucion_comandos,ejecucion_comandos,java_runtime_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-04 01:57:22+07:00,2025-10-04,web-access.log.4.gz,10231,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-04 03:00:41+07:00,2025-10-04,web-access.log.4.gz,10483,GET,404,ejecucion_comandos,,,Ejecucion declarada en parametro cmd,revision_contextual
+2025-10-04 03:04:37+07:00,2025-10-04,web-access.log.4.gz,10506,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-04 05:13:32+07:00,2025-10-04,web-access.log.4.gz,11029,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-04 05:25:33+07:00,2025-10-04,web-access.log.4.gz,11076,GET,404,ejecucion_comandos,,,Parametro system codifica id (base64),revision_contextual
+2025-10-04 06:50:35+07:00,2025-10-04,web-access.log.4.gz,11555,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-04 06:59:29+07:00,2025-10-04,web-access.log.4.gz,11603,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-04 07:29:43+07:00,2025-10-04,web-access.log.4.gz,11719,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-04 08:21:56+07:00,2025-10-04,web-access.log.3.gz,301,POST,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-04 08:21:59+07:00,2025-10-04,web-access.log.3.gz,302,POST,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-04 09:53:17+07:00,2025-10-04,web-access.log.3.gz,1178,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-04 09:53:20+07:00,2025-10-04,web-access.log.3.gz,1183,GET,400,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-04 09:54:07+07:00,2025-10-04,web-access.log.3.gz,1220,POST,404,ejecucion_comandos,ejecucion_comandos,codigo_php_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-04 10:53:19+07:00,2025-10-04,web-access.log.3.gz,1588,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-04 11:04:37+07:00,2025-10-04,web-access.log.3.gz,1654,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-04 11:17:00+07:00,2025-10-04,web-access.log.3.gz,1824,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-04 13:10:48+07:00,2025-10-04,web-access.log.3.gz,2603,POST,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-04 14:51:26+07:00,2025-10-04,web-access.log.3.gz,3102,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-04 15:34:42+07:00,2025-10-04,web-access.log.3.gz,3346,GET,302,ejecucion_comandos,ejecucion_comandos,codigo_php_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-04 17:16:31+07:00,2025-10-04,web-access.log.3.gz,3830,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-04 17:16:31+07:00,2025-10-04,web-access.log.3.gz,3832,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-04 17:16:32+07:00,2025-10-04,web-access.log.3.gz,3834,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-04 18:24:09+07:00,2025-10-04,web-access.log.3.gz,4265,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-04 18:30:15+07:00,2025-10-04,web-access.log.3.gz,4289,POST,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-04 18:50:04+07:00,2025-10-04,web-access.log.3.gz,4411,GET,404,ejecucion_comandos,inyeccion_sql,indicador_SQL_en_solicitud,"Payload de evaluacion Java/Groovy, no SQLi",indicador_explicito
+2025-10-04 18:55:53+07:00,2025-10-04,web-access.log.3.gz,4497,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-04 20:24:26+07:00,2025-10-04,web-access.log.3.gz,4892,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-04 20:50:45+07:00,2025-10-04,web-access.log.3.gz,5031,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-04 20:50:47+07:00,2025-10-04,web-access.log.3.gz,5034,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-04 20:50:49+07:00,2025-10-04,web-access.log.3.gz,5035,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd;inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-04 22:10:40+07:00,2025-10-04,web-access.log.3.gz,5491,POST,404,ejecucion_comandos,ejecucion_comandos,codigo_php_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-04 22:30:23+07:00,2025-10-04,web-access.log.3.gz,5579,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 00:05:15+07:00,2025-10-05,web-access.log.3.gz,6078,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 00:05:16+07:00,2025-10-05,web-access.log.3.gz,6080,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 00:05:16+07:00,2025-10-05,web-access.log.3.gz,6082,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 00:05:40+07:00,2025-10-05,web-access.log.3.gz,6120,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 00:35:14+07:00,2025-10-05,web-access.log.3.gz,6288,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 01:27:15+07:00,2025-10-05,web-access.log.3.gz,6641,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 03:11:12+07:00,2025-10-05,web-access.log.3.gz,7086,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 03:11:12+07:00,2025-10-05,web-access.log.3.gz,7087,POST,404,ejecucion_comandos,ejecucion_comandos,codigo_php_en_url,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-05 03:11:12+07:00,2025-10-05,web-access.log.3.gz,7088,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 06:21:20+07:00,2025-10-05,web-access.log.3.gz,7841,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 06:23:17+07:00,2025-10-05,web-access.log.3.gz,7852,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 06:24:06+07:00,2025-10-05,web-access.log.3.gz,7860,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 07:27:47+07:00,2025-10-05,web-access.log.3.gz,8123,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 07:35:47+07:00,2025-10-05,web-access.log.2.gz,5,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 07:35:47+07:00,2025-10-05,web-access.log.2.gz,9,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 07:35:47+07:00,2025-10-05,web-access.log.2.gz,11,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 07:35:47+07:00,2025-10-05,web-access.log.2.gz,12,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 07:36:39+07:00,2025-10-05,web-access.log.2.gz,28,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 07:40:13+07:00,2025-10-05,web-access.log.2.gz,50,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 09:30:40+07:00,2025-10-05,web-access.log.2.gz,517,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 09:57:02+07:00,2025-10-05,web-access.log.2.gz,643,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 10:14:59+07:00,2025-10-05,web-access.log.2.gz,708,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 10:15:19+07:00,2025-10-05,web-access.log.2.gz,712,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 10:28:13+07:00,2025-10-05,web-access.log.2.gz,792,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 10:28:14+07:00,2025-10-05,web-access.log.2.gz,795,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 10:28:14+07:00,2025-10-05,web-access.log.2.gz,796,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 10:28:14+07:00,2025-10-05,web-access.log.2.gz,797,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 10:28:28+07:00,2025-10-05,web-access.log.2.gz,800,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 10:28:31+07:00,2025-10-05,web-access.log.2.gz,801,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 10:28:35+07:00,2025-10-05,web-access.log.2.gz,802,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 10:46:31+07:00,2025-10-05,web-access.log.2.gz,949,POST,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 11:35:44+07:00,2025-10-05,web-access.log.2.gz,1276,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 12:03:39+07:00,2025-10-05,web-access.log.2.gz,1432,GET,404,ejecucion_comandos,,,Inyeccion de comando $() en parametro,revision_contextual
+2025-10-05 12:15:36+07:00,2025-10-05,web-access.log.2.gz,1491,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 12:16:47+07:00,2025-10-05,web-access.log.2.gz,1498,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 12:36:58+07:00,2025-10-05,web-access.log.2.gz,1622,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 12:36:58+07:00,2025-10-05,web-access.log.2.gz,1624,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 12:36:58+07:00,2025-10-05,web-access.log.2.gz,1625,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 13:20:29+07:00,2025-10-05,web-access.log.2.gz,1870,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 13:20:29+07:00,2025-10-05,web-access.log.2.gz,1871,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 13:20:29+07:00,2025-10-05,web-access.log.2.gz,1872,GET,302,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 13:20:29+07:00,2025-10-05,web-access.log.2.gz,1873,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 13:20:29+07:00,2025-10-05,web-access.log.2.gz,1875,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 13:20:29+07:00,2025-10-05,web-access.log.2.gz,1876,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 13:20:29+07:00,2025-10-05,web-access.log.2.gz,1877,GET,404,ejecucion_comandos,ejecucion_comandos,inyeccion_shell_en_parametros,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-05 13:20:32+07:00,2025-10-05,web-access.log.2.gz,1881,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 13:20:33+07:00,2025-10-05,web-access.log.2.gz,1882,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 14:03:52+07:00,2025-10-05,web-access.log.2.gz,2191,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 14:33:35+07:00,2025-10-05,web-access.log.2.gz,2387,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 15:30:38+07:00,2025-10-05,web-access.log.2.gz,2619,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 15:30:38+07:00,2025-10-05,web-access.log.2.gz,2620,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 15:30:38+07:00,2025-10-05,web-access.log.2.gz,2621,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 16:16:28+07:00,2025-10-05,web-access.log.2.gz,2954,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 16:16:28+07:00,2025-10-05,web-access.log.2.gz,2959,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 16:16:28+07:00,2025-10-05,web-access.log.2.gz,2961,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 17:59:26+07:00,2025-10-05,web-access.log.2.gz,3831,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 17:59:26+07:00,2025-10-05,web-access.log.2.gz,3832,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 19:14:18+07:00,2025-10-05,web-access.log.2.gz,4302,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 19:14:18+07:00,2025-10-05,web-access.log.2.gz,4303,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 19:14:18+07:00,2025-10-05,web-access.log.2.gz,4309,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 19:14:18+07:00,2025-10-05,web-access.log.2.gz,4310,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 19:36:42+07:00,2025-10-05,web-access.log.2.gz,4470,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 20:09:21+07:00,2025-10-05,web-access.log.2.gz,4657,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 20:09:29+07:00,2025-10-05,web-access.log.2.gz,4660,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 20:09:30+07:00,2025-10-05,web-access.log.2.gz,4662,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 20:28:38+07:00,2025-10-05,web-access.log.2.gz,4769,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 20:28:41+07:00,2025-10-05,web-access.log.2.gz,4770,GET,404,inyeccion_sql,,,Inyeccion SQL INSERT INTO cron_jobs,revision_contextual
+2025-10-05 22:15:05+07:00,2025-10-05,web-access.log.2.gz,5651,GET,302,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 22:15:05+07:00,2025-10-05,web-access.log.2.gz,5652,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 22:15:05+07:00,2025-10-05,web-access.log.2.gz,5655,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 22:15:05+07:00,2025-10-05,web-access.log.2.gz,5657,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 22:15:06+07:00,2025-10-05,web-access.log.2.gz,5660,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 22:43:41+07:00,2025-10-05,web-access.log.2.gz,5948,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 22:43:41+07:00,2025-10-05,web-access.log.2.gz,5949,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-05 22:43:41+07:00,2025-10-05,web-access.log.2.gz,5950,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-05 23:43:21+07:00,2025-10-05,web-access.log.2.gz,6498,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 01:19:10+07:00,2025-10-06,web-access.log.2.gz,6953,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-06 01:19:10+07:00,2025-10-06,web-access.log.2.gz,6955,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 01:19:10+07:00,2025-10-06,web-access.log.2.gz,6957,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 01:19:10+07:00,2025-10-06,web-access.log.2.gz,6958,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-06 01:19:10+07:00,2025-10-06,web-access.log.2.gz,6961,GET,200,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 01:19:10+07:00,2025-10-06,web-access.log.2.gz,6963,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-06 01:19:10+07:00,2025-10-06,web-access.log.2.gz,6964,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 01:19:10+07:00,2025-10-06,web-access.log.2.gz,6965,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 01:19:10+07:00,2025-10-06,web-access.log.2.gz,6967,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 01:19:10+07:00,2025-10-06,web-access.log.2.gz,6971,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 01:19:15+07:00,2025-10-06,web-access.log.2.gz,6977,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 04:07:27+07:00,2025-10-06,web-access.log.2.gz,7632,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 04:07:28+07:00,2025-10-06,web-access.log.2.gz,7635,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 04:07:28+07:00,2025-10-06,web-access.log.2.gz,7636,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 04:07:28+07:00,2025-10-06,web-access.log.2.gz,7644,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 04:07:28+07:00,2025-10-06,web-access.log.2.gz,7647,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 05:32:39+07:00,2025-10-06,web-access.log.2.gz,7970,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 07:00:33+07:00,2025-10-06,web-access.log.2.gz,8340,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 07:00:34+07:00,2025-10-06,web-access.log.2.gz,8341,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 07:00:34+07:00,2025-10-06,web-access.log.2.gz,8342,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 07:00:34+07:00,2025-10-06,web-access.log.2.gz,8349,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 07:00:34+07:00,2025-10-06,web-access.log.2.gz,8353,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-06 07:00:34+07:00,2025-10-06,web-access.log.2.gz,8355,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-06 07:00:34+07:00,2025-10-06,web-access.log.2.gz,8356,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 08:31:42+07:00,2025-10-06,web-access.log.1,808,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-06 08:31:42+07:00,2025-10-06,web-access.log.1,811,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 09:56:13+07:00,2025-10-06,web-access.log.1,3194,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 09:56:13+07:00,2025-10-06,web-access.log.1,3198,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 09:56:13+07:00,2025-10-06,web-access.log.1,3199,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 09:56:13+07:00,2025-10-06,web-access.log.1,3203,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 09:56:13+07:00,2025-10-06,web-access.log.1,3204,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 09:56:13+07:00,2025-10-06,web-access.log.1,3205,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-06 09:56:13+07:00,2025-10-06,web-access.log.1,3206,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 09:56:16+07:00,2025-10-06,web-access.log.1,3209,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 09:56:16+07:00,2025-10-06,web-access.log.1,3211,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 09:56:18+07:00,2025-10-06,web-access.log.1,3215,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 09:56:18+07:00,2025-10-06,web-access.log.1,3216,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 10:54:07+07:00,2025-10-06,web-access.log.1,4896,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 12:56:06+07:00,2025-10-06,web-access.log.1,7545,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 12:56:06+07:00,2025-10-06,web-access.log.1,7546,GET,404,ejecucion_comandos,,,Pipe de comando cmd,revision_contextual
+2025-10-06 12:56:06+07:00,2025-10-06,web-access.log.1,7552,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 12:56:06+07:00,2025-10-06,web-access.log.1,7553,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 12:56:06+07:00,2025-10-06,web-access.log.1,7556,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 12:56:09+07:00,2025-10-06,web-access.log.1,7560,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-06 13:37:40+07:00,2025-10-06,web-access.log.1,8643,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-06 13:37:40+07:00,2025-10-06,web-access.log.1,8644,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 13:37:40+07:00,2025-10-06,web-access.log.1,8645,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 15:47:22+07:00,2025-10-06,web-access.log.1,11384,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-06 15:47:22+07:00,2025-10-06,web-access.log.1,11387,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 15:47:22+07:00,2025-10-06,web-access.log.1,11388,GET,404,ejecucion_comandos,ejecucion_comandos,comando_sistema_en_parametro_cmd,Indicador explicito de comando o endpoint de ejecucion,indicador_explicito
+2025-10-06 15:47:22+07:00,2025-10-06,web-access.log.1,11391,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 15:47:22+07:00,2025-10-06,web-access.log.1,11392,GET,302,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 15:47:22+07:00,2025-10-06,web-access.log.1,11394,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-06 15:47:22+07:00,2025-10-06,web-access.log.1,11397,GET,302,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-06 15:47:26+07:00,2025-10-06,web-access.log.1,11403,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 15:47:28+07:00,2025-10-06,web-access.log.1,11405,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 18:48:25+07:00,2025-10-06,web-access.log.1,13333,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 18:48:25+07:00,2025-10-06,web-access.log.1,13342,GET,404,inyeccion_sql,inyeccion_sql,indicador_SQL_en_solicitud,Sintaxis de pruebas SQL visible en URI,indicador_explicito
+2025-10-06 18:48:25+07:00,2025-10-06,web-access.log.1,13343,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 18:48:25+07:00,2025-10-06,web-access.log.1,13346,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 18:48:28+07:00,2025-10-06,web-access.log.1,13348,GET,404,archivo_sensible,archivo_sensible,referencia_a_etc_passwd,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
+2025-10-06 19:45:11+07:00,2025-10-06,web-access.log.1,13878,GET,404,xss,xss,payload_alert_document_en_url,Patron explicito en URI; no implica explotacion exitosa,indicador_explicito
